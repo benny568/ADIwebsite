@@ -1,0 +1,25 @@
+export const SITE = {
+  instructorName: 'Brendan O\'Daly',
+  area: 'Ennis, Co. Clare',
+  county: 'Co. Clare',
+  phone: '087 647 0883',
+  phoneHref: 'tel:+353876470883',
+  email: 'odalybr@hotmail.com',
+  formspreeEndpoint: import.meta.env.VITE_FORMSPREE_ENDPOINT ?? '',
+  calendlyUrl: 'https://calendly.com/YOUR-USERNAME',
+  socials: {
+    facebook: 'https://facebook.com/',
+    instagram: 'https://instagram.com/',
+  },
+  adiLicenceNumber: '[ADI Licence No.]',
+  pricing: {
+    singleLesson: '€45',
+    singleLessonDuration: '60 min',
+    edtPackage: '€480',
+    edtLessons: '12 lessons',
+    preTestPackage: '€120',
+    preTestLessons: '3 lessons',
+    blockOf5: '€210',
+    blockOf5Duration: '5 × 60 min',
+  },
+}
